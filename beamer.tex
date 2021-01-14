@@ -1,0 +1,100 @@
+\documentclass{beamer}
+
+% Elegir tema
+\usetheme{Berlin}
+
+% Packages
+\usepackage[spanish]{babel}
+
+% Commands
+\newcommand{\bftt}[1]{\textbf{\texttt{#1}}}
+\newcommand{\cmd}[1]{{\color[HTML]{008000}\bftt{#1}}}
+\newcommand{\bs}{\char`\\}
+\newcommand{\cmdbs}[1]{\cmd{\bs#1}}
+
+\title{Mi primera presentación en Beamer}
+\author{Jesús Mudarra Luján}
+\institute{Curso de Introducción a \LaTeX}
+\date{\today}
+
+
+
+\begin{document}
+
+\begin{frame}
+\titlepage % el \maketitle de beamer
+\end{frame}
+
+\begin{frame}
+\tableofcontents
+\end{frame}
+
+\section{Primera sección}
+
+\begin{frame}[fragile]
+\frametitle{Presentaciones con beamer: Diapositivas}
+
+\begin{itemize}
+\item Usa el comando \cmdbs{frametitle} para titular la diapositiva.
+\item Después, añade el contenido
+\item En fichero fuente de esta diapositiva tiene este aspecto
+\end{itemize}
+
+\end{frame}
+
+\section{Segunda sección}
+
+\begin{frame}
+\frametitle{Presentaciones con beamer: Introduciendo columnas}
+
+\begin{columns}
+
+% INTRODUCIMOS LA PRIMERA COLUMNA
+
+\begin{column}{0.4\textwidth}
+\begin{itemize}
+\item Usa \dots
+\item El argumento \dots
+\item También puedes \dots
+\end{itemize}
+\end{column}
+
+% INTRODUCIMOS LA SEGUNDA COLUMNA
+
+\begin{column}{0.6\textwidth}
+\begin{itemize}
+\pause % Para no hacer aparecer toda la diapositiva
+\item Aquí \dots
+\item Va la segunda \dots
+\item columna que hemos creado \dots
+\end{itemize}
+\end{column}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Presentaciones con beamer: Destacados}
+
+\begin{itemize}
+\item Usar \cmdbs{emph} o \cmdbs{alert} para destacar\\
+He de \emph{resaltar} que este punto es \alert{importante}
+\item Para especificar en negrita o cursiva respectivamente utilizar \cmdbs{textbf} o \cmdbs{textit}\\
+Texto en \textbf{negrita}. Texto en \textit{cursiva}
+\item Para especificar un color utilizar el comando \cmdbs{textcolor}\\
+\textcolor{red}{Se para} y \textcolor{green}{arranca}.
+\end{itemize}
+
+% AÑADIENDO BLOQUES
+\begin{block}{Hecho interesante}
+Esto es importante.
+\end{block}
+
+\begin{alertblock}{Cuento moral}
+¡Esto es realmente importante!
+\end{alertblock}
+
+\end{frame}
+
+\end{document}

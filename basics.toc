@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}¿Qué es \LaTeX ?}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Sintaxis básica}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Letras griegas}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.2}Operadores matemáticos}{2}{}%
+\contentsline {section}{\numberline {2}Pon a prueba lo aprendido}{2}{}%
+\contentsline {section}{\numberline {3}Estructura de un documento}{2}{}%
+\contentsline {section}{\numberline {4}Sintaxis más avanzada}{3}{}%
+\contentsline {section}{\numberline {5}Incluyendo una imagen}{3}{}%
+\contentsline {section}{\numberline {6}Añadiendo una tabla}{3}{}%
+\contentsline {section}{\numberline {7}Haciendo referencia a la bibliografía}{4}{}%

@@ -1,0 +1,89 @@
+\documentclass{article}
+
+\usepackage{multirow}
+\usepackage[spanish]{babel}
+
+\begin{document}
+
+% EJEMPLO 1
+
+\begin{table}[]
+\caption{Precios}
+\centering
+\label{tab:precios}
+\begin{tabular}{|l|l|r|}
+\hline
+\multicolumn{2}{|c|}{Item}          &            \\ \hline
+Animal                & Description & Price (\$) \\ \hline
+\multirow{2}{*}{Gnat} & per gram    & 13.65      \\ \cline{2-3} 
+                      & each        & 0.01       \\ \hline
+Gnu                   & stuffed     & 92.50      \\ \hline
+Emu                   & stuffed     & 33.33      \\ \hline
+Armadillo             & frozen      & 8.99       \\ \hline
+\end{tabular}
+\end{table}
+
+
+% EJEMPLO 2
+
+\begin{table}[]
+\centering
+\caption{Horario}
+\label{tab:horario}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+            & Lunes  & Martes & Miércoles & Jueves & Viernes \\ \hline
+9-11        & A1     & A2     & A1        & A3     & A2      \\ \hline
+11-11:30    & \multicolumn{5}{c|}{DESCANSO}                  \\ \hline
+11:30-13:30 & A4     & A1     & A3        & A5     & A4      \\ \hline
+13:30-14:30 & A2     & A3     & A4        & A1     & A5      \\ \hline
+14:30-15    & \multicolumn{5}{c|}{ALMUERZO Y DESCANSO}       \\ \hline
+15-18       & \multicolumn{5}{c|}{ESTUDIO}                   \\ \hline
+18-20       & CARDIO & TRX    & CARDIO    & TRX    & CARDIO  \\ \hline
+\end{tabular}
+\end{table}
+
+
+% EJEMPLO 3
+
+\begin{table}[]
+\centering
+\begin{tabular}{lllllllllllllll}
+ &  &  &  &  &  &  & 1 &  &  &  &  &  &  &  \\
+ &  &  &  &  &  & 1 &  & 1 &  &  &  &  &  &  \\
+ &  &  &  &  & 1 &  & 2 &  & 1 &  &  &  &  &  \\
+ &  &  &  & 1 &  & 3 &  & 3 &  & 1 &  &  &  &  \\
+ &  &  & 1 &  & 4 &  & 6 &  & 4 &  & 1 &  &  &  \\
+ &  & 1 &  & 5 &  & 10 &  & 10 &  & 5 &  & 1 &  &  \\
+ & 1 &  & 6 &  & 15 &  & 20 &  & 15 &  & 6 &  & 1 &  \\
+1 &  & 7 &  & 21 &  & 35 &  & 35 &  & 21 &  & 7 &  & 1
+\end{tabular}
+\caption{Triángulo de Pascal}
+\label{tab:pascal}
+\end{table}
+
+
+% EJEMPLO 4
+
+\begin{table}[]
+\centering
+\begin{tabular}{|l|r|r|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Concepto}} & \multicolumn{1}{c|}{\textbf{Coste}} & \multicolumn{1}{c|}{\textbf{Coste acumulado}} \\ \hline
+Picos &  &  \\ \cline{3-3} 
+Palas & 100000 &  \\ \cline{3-3} 
+Azadones &  & 100000 \\ \hline
+Frailes &  &  \\ \cline{3-3} 
+Monjas & 150 &  \\ \cline{3-3} 
+Pobres &  & 100150 \\ \hline
+Guantes & 100 & 100250 \\ \hline
+Campanas & 160 & 100410 \\ \hline
+Pequeñeces & 100000 & 200410 \\ \hline
+\end{tabular}
+\caption{Cuentas del Gran Capitán (en miles de escudos)}
+\label{tab:gcap}
+\end{table}
+
+
+\end{document}
+

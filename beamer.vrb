@@ -1,0 +1,8 @@
+\frametitle{Presentaciones con beamer: Diapositivas}
+
+\begin{itemize}
+\item Usa el comando \cmdbs{frametitle} para titular la diapositiva.
+\item Después, añade el contenido
+\item En fichero fuente de esta diapositiva tiene este aspecto
+\end{itemize}
+
