@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  15 JAN 2021 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  15 JAN 2021 16:03
 entering extended mode
 **./tablas.tex
 (tablas.tex
@@ -82,40 +82,23 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 10.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 14.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 29.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 49.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 68.
-
-[1{C:/Users/mudar/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (tablas.aux) 
-) 
+ [1{C:/Users/mudar/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(tablas.aux) ) 
 Here is how much of TeX's memory you used:
  1598 strings out of 479624
- 23652 string characters out of 2875024
+ 23712 string characters out of 2875024
  333062 words of memory out of 3000000
  18823 multiletter control sequences out of 15000+200000
  404073 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,9n,50p,185b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\mudar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
-000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+ <C:\Users\mudar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 Output written on tablas.pdf (1 page, 37498 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)

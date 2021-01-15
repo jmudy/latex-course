@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  15 JAN 2021 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  15 JAN 2021 16:02
 entering extended mode
 **./tikz.tex
 (tikz.tex
@@ -393,8 +393,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [5] (tikz.aux) ) 
 Here is how much of TeX's memory you used:
  12188 strings out of 479624
- 249933 string characters out of 2875024
- 492956 words of memory out of 3000000
+ 249993 string characters out of 2875024
+ 492962 words of memory out of 3000000
  29165 multiletter control sequences out of 15000+200000
  403430 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191

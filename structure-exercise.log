@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  15 JAN 2021 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  15 JAN 2021 16:00
 entering extended mode
 **./structure-exercise.tex
 (structure-exercise.tex
@@ -504,8 +504,8 @@ LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
  14097 strings out of 479624
- 277968 string characters out of 2875024
- 561520 words of memory out of 3000000
+ 278043 string characters out of 2875024
+ 561526 words of memory out of 3000000
  31017 multiletter control sequences out of 15000+200000
  408805 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191

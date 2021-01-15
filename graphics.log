@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  14 JAN 2021 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  15 JAN 2021 16:07
 entering extended mode
 **./graphics.tex
 (graphics.tex
@@ -96,7 +96,7 @@ Package pdftex.def Info: siurellp.png  used on input line 10.
 (graphics.aux) ) 
 Here is how much of TeX's memory you used:
  1174 strings out of 479624
- 17555 string characters out of 2875024
+ 17615 string characters out of 2875024
  286707 words of memory out of 3000000
  18391 multiletter control sequences out of 15000+200000
  403430 words of font info for 27 fonts, out of 3000000 for 9000
