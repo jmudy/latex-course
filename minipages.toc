@@ -1,3 +1,0 @@
-\babel@toc {spanish}{}
-\beamer@sectionintoc {1}{Minipage con fbox}{2}{0}{1}
-\beamer@sectionintoc {2}{Minipage con fbox}{3}{0}{2}

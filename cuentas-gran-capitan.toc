@@ -1,5 +1,0 @@
-\babel@toc {spanish}{}
-\beamer@sectionintoc {1}{Orden del día}{3}{0}{1}
-\beamer@sectionintoc {2}{Antecedentes}{9}{0}{2}
-\beamer@sectionintoc {3}{Descripción general}{10}{0}{3}
-\beamer@sectionintoc {4}{Conclusiones}{11}{0}{4}
