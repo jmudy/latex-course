@@ -1,0 +1,271 @@
+
+
+\documentclass{article}
+\usepackage[spanish]{babel}
+\usepackage{graphicx} % Añadir imágenes
+\usepackage{amsfonts} % Para conjunto de números
+\usepackage{amsmath} % Para texto dentro de fórmula matemática
+
+\DeclareMathOperator{\lcm}{lcm} % Para declarar el mínimo común múltiplo ya que no existe por defecto
+
+\title{Guía rápida de \LaTeX}
+\author{Jesús Mudarra Luján}
+
+\begin{document}
+\maketitle
+
+$90^{\circ}$ es lo mismo que $\frac{pi}{2}$ radianes.
+
+\[x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\]
+
+Quiero comprobar cuanto vale la suma $\displaystyle\sum_{n=1}^\infty \frac{1}{n^2}$.
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=5cm]{cat.jpeg}
+    \caption{Pie de foto aquí}
+    \label{fig:my_label}
+\end{figure}
+
+Como se puede ver en la figura \ref{fig:my_label} \ldots
+
+\textit{Esto es un texto en cursiva}, \textbf{esto es un texto en negrita}, y \underline{esto es un texto subrayado}.
+
+
+
+\newpage
+
+% \noindent para no indentar la siguiente frase
+\noindent En entorno matemático podemos usar $\mathbf{T}$. Si queremos denotar los conjuntos de números usuales, podemos usar $\mathbb{R}$, \ldots
+
+\[(0,1] = \{x \in  \mathbb{R}: x>0 \text{ y } x \le 1 \}\] % Este es el conjunto abierto en 0 y cerrado en 1 
+
+Esto
+
+es\\ % LaTeX da una advertencia porque no es normal utilizar esto
+
+un
+
+texto.
+
+
+\section{Delimitadores}
+
+\begin{itemize}
+    \item Paréntesis $(x,y,z) \in \mathbb R^3$
+    \item Corchetes $[x]$
+    \item Llaves $\{x\}$
+\end{itemize}
+
+$$\left\{\sin\left(\frac{1}{n^2}\right)\right\}_{n=1}^\infty$$
+
+% Cuidado con los corchetes al hacer superíndices y subíndices
+$$x^2, x^{2}, x^2t, x^{2t}, x^{t_n}, x^t_n$$
+
+
+\section{Listas}
+
+\subsection{Listas numeradas}
+\begin{enumerate}
+    \item Salud
+    \begin{enumerate}
+        \item Hacer deporte
+        \item No fumar ni tener vicios varios
+    \end{enumerate}
+    \item Dinero
+    \item Amor
+\end{enumerate}
+
+\subsection{Listas No Numeradas}
+\begin{itemize}
+    \item Pizza
+    \begin{itemize}
+        \item De anchoas
+        \item Picante
+    \end{itemize}
+    \item Paella
+    \item Helado
+\end{itemize}
+
+
+\section{Símbolos matemáticos}
+\subsection{Símbolos básicos}
+
+\begin{itemize}
+    \item Suma $a+b$
+    \item Resta $a-b$
+    \item Multiplicación $a \cdot b, a \times b$
+    \item División $a/b, a \div b$
+    \item Más / Menos $\pm, \mp$
+    \item Círculos $\oplus, \otimes$
+    \item Comparadores $ = , \ne, <, >, \le, \ge, \approx$
+    \item Infinito $\infty$
+    \item Puntos suspensivos $1,2,3, \ldots, 1+2+3+\cdots$
+    \item Fracciones $\displaystyle\frac{a}{b}$
+    \item Raíces $\sqrt{x}, \sqrt[n]{x}$
+    \item Exponentes y subíndices $a^n, b_n$
+    \item Valor absoluto $|x|$
+    \item Logaritmos $\ln{x}, \log_{a} b$
+    \item Exponencial $e^x, \exp{x}$
+    \item Grado $\deg(f)$
+\end{itemize}
+
+
+\subsection{Funciones}
+
+\begin{itemize}
+    \item Función entre dos espacios $\to$
+    \item Transformación de elementos $\mapsto$
+    \item Composición de funciones $(g\circ f) (x)$
+\end{itemize}
+
+\begin{align*} % Incluir el "&" para que las flechas de las dos ecuaciones estén alineadas
+    f \colon L^\infty(T) &\to \mathcal{L}(H^2)\\
+    \phi &\mapsto T_\phi
+\end{align*}
+
+\begin{equation*}
+    |x| =
+    \begin{cases}
+    x &\text{ si } x\ge 0\\
+    -x &\text{ si } x < 0
+    \end{cases}
+\end{equation*}
+
+
+\subsection{Letras giegras y hebreas}
+\begin{itemize}
+    \item Alpha $\alpha$
+    \item Beta $\beta$
+    \item Chi $\chi$
+    \item Delta $\delta. \Delta$
+    \item Epsilon $\epsilon, \varepsilon$
+    \item Eta $\eta$
+    \item Gamma $\gamma, \Gamma$
+    \item Iota $\iota$
+    \item Kappa $\kappa$
+    \item Lambda $\lambda, \Lambda$
+    \item Mu $\mu$
+    \item Nu $\nu$
+    \item Omega $\omega, \Omega$
+    \item Phi $\phi, \varphi, \Phi$
+    \item Pi $\pi, \Pi$
+    \item Psi $\psi, \Psi$
+    \item Rho $\rho, \varrho$
+    \item Sigma $\sigma, \Sigma$
+    \item Tau $\tau$
+    \item Theta $\theta, \vartheta, \Theta$
+    \item Upsilon $\upsilon, \Upsilon$
+    \item Xi $\xi, \Xi$
+    \item Zeta $\zeta$
+    \item Aleph $\aleph$
+\end{itemize}
+
+
+\subsection{Teoría de Conjuntos}
+\begin{itemize}
+    \item Conjunto: $\{1,2,3\}$
+    \item Elementos: $x \in \mathcal{X}, y\not\in \mathcal{X}$
+    \item Subconjuntos: $\subset, \subseteq, \not\subset$
+    \item Superconjuntos: $\supset, \supseteq, \not\supset$
+    \item Unión: $A \cup B = \{x: x\in A \text{ o } x\in B\}, \displaystyle\bigcup_{n=1}^{10} A_n$
+    \item Intersección: $A \cap B = \{x: x\in A \text{ y } x\in B\}, \displaystyle\bigcap_{x\in \mathcal{X}}U_x$
+    \item Complementario $X^c$
+    \item Conjunto vacío $\emptyset$
+    \item Conjunto de partes $|\mathcal{P}(\mathbb N)| = \aleph_0$
+    \item Mínimo $\min$
+    \item Máximo $\max$
+    \item Ínfimo $\inf$
+    \item Supremo $\sup$
+    \item Límite Inferior $\liminf$
+    \item Límite Superior $\limsup$
+    \item Clausura $\overline{X}$
+\end{itemize}
+
+
+\subsection{Cálculo}
+\begin{itemize}
+    \item Derivadas $f'(x), \displaystyle\frac{df}{dx}, \frac{\partial f}{\partial x}$
+    \item Integral $\displaystyle\int_0^{\infty} f(x)\ dx,\quad \iint, \iiint$
+    \item Límite $\displaystyle\lim_{x\to \infty} f(x)$
+    \item Sumatorio $\displaystyle\sum_{n=1}^{\infty} a_n$
+    \item Productorio $\displaystyle\prod_{n=1}^{\infty} a_n$
+\end{itemize}
+
+
+\subsection{Lógica}
+\begin{itemize}
+    \item Proposiciones $p,q,r,\ldots$
+    \item Negación: $\neg p$
+    \item And: $p \land q$
+    \item Or: $p \lor q$
+    \item Si\ldots entonces: $p\implies q, p\impliedby q$
+    \item Si y solo si: $p\iff q$
+    \item Equivalencia lógica $\equiv$
+    \item Existe: $\exists$
+    \item Para todo: $\forall$
+\end{itemize}
+
+
+\subsection{Álgebra Lineal}
+\begin{itemize}
+    \item Vectores: $\vec{v}, \mathbf{v}$
+    \item Norma de un vector: $||\vec{v}|| = \sqrt{\vec{v}\cdot \vec{v}}$
+    \item Producto escalar y vectorial: $\vec{u}\cdot \vec{v}, \vec{u}\times \vec{v}, [\vec{u}, \vec{v}, \vec{w}]$
+    \item Matrices: $$\left(\begin{array}{ccc}
+        1 & 2 & 3  \\
+        4 & 5 & 6
+    \end{array}\right) \in \mathcal{M}_{2\times 3}$$
+    
+    $$\left[\begin{array}{rcc}
+        1 & 2 & 3  \\
+        4 & 5 & 6  \\
+        -1 & 8 & 0
+    \end{array}\right]$$
+    \item Determinantes:
+    $$\det(M) = \left|\begin{array}{cc}
+        x & y \\
+        z & t
+    \end{array}\right| \in \mathbb R$$
+    \item Traza: $tr(M)$
+    \item Dimensión: $\dim(E)$
+    \item Polinomios: $p(x), q(x), r(x) \in \mathbb R[x]$
+\end{itemize}
+
+
+\subsection{Teoría de Números}
+\begin{itemize}
+    \item Divisores o no divisores: $a|b, a \not|\ b$
+    \item Múdulo: $a\mod b$
+    \item Máximo Común Divisor: $\gcd(a,b)$
+    \item Mínimo Común Múltiplo: $\lcm(a,b)$
+    \item Parte entera: $\lfloor x \rfloor, \lceil x \rceil$
+    \item Conjunto generado: $\langle a\rangle$
+\end{itemize}
+
+
+\subsection{Geometría y Trigonometría}
+\begin{itemize}
+    \item Ángulos $\angle ABC$
+    \item $90^{\circ}$
+    \item Triángulo $\triangle ABC$
+    \item Segmentos $\overline{AB}$
+\end{itemize}
+
+\begin{itemize}
+    \item Seno $\sin{x}$
+    \item Coseno $\cos{x}$
+    \item Tangente $\tan{x} = \frac{\sin{x}}{\cos{x}}$
+    \item Secante $\sec{x} = \frac{1}{\cos{x}}$
+    \item Cosecante $\csc{x} = \frac{1}{\sin{x}}$
+    \item Cotangente $\cot{x} = \frac{1}{\tan{x}}$
+    \item Arco Seno $\arcsin{x}$
+    \item Arco Coseno $\arccos{x}$
+    \item Arco Tangente $\arctan{x}$
+    \item Seno hiperbólico $\sinh{x} = \frac{e^x-e^{-x}}{2}$
+    \item Coseno hiperbólico $\cosh{x} = \frac{e^x+e^{-x}}{2}$
+    \item Tangente hiperbólica $\tanh{x} = \frac{\sinh{x}}{\cosh{x}}$
+\end{itemize}
+
+\end{document}

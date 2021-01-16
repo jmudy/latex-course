@@ -1,0 +1,39 @@
+---
+title: "Probando LaTeX en RStudio"
+author: "Jesús Mudarra"
+date: "16/1/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+f <- function(x){x^5}
+sol <- integrate(f, lower = 0, upper = 2)
+```
+
+$$\int_0^2 x^5\ dx = `r sol$value`$$
+
+Para introducir urls: <https://frogames.es>
+
+Otra forma: Quiero un link a [Frogames](https://frogames.es)
+
+![Descripción de la imagen](cat.jpeg)
+
+Para escribir en negrita o cursiva escribir **negrita** y *cursiva*
+
+Para tachar un texto escribir: ~~este texto está tachado~~
+
+---
+
+Para escribir una letra o palabra en código escribir entre con ` `, por ejemplo:
+
+En próximos cursos aprenderemos a utilizar el lenguaje `Python`.
+
+
+
+
+

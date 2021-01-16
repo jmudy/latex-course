@@ -1,14 +1,14 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'bibfinal.blg'
-[179] biber-MSWIN64:340> INFO - === 
-[239] Biber.pm:415> INFO - Reading 'bibfinal.bcf'
-[411] Biber.pm:952> INFO - Found 6 citekeys in bib section 0
-[435] Biber.pm:4340> INFO - Processing section 0
-[455] Biber.pm:4531> INFO - Looking for bibtex format file 'jabref.bib' for section 0
-[538] bibtex.pm:1689> INFO - LaTeX decoding ...
-[555] bibtex.pm:1494> INFO - Found BibTeX data source 'jabref.bib'
-[671] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[671] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[672] Biber.pm:4168> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'es-ES'
-[688] bbl.pm:654> INFO - Writing 'bibfinal.bbl' with encoding 'UTF-8'
-[692] bbl.pm:757> INFO - Output to bibfinal.bbl
+[169] biber-MSWIN64:340> INFO - === 
+[221] Biber.pm:415> INFO - Reading 'bibfinal.bcf'
+[394] Biber.pm:952> INFO - Found 6 citekeys in bib section 0
+[418] Biber.pm:4340> INFO - Processing section 0
+[438] Biber.pm:4531> INFO - Looking for bibtex format file 'jabref.bib' for section 0
+[507] bibtex.pm:1689> INFO - LaTeX decoding ...
+[522] bibtex.pm:1494> INFO - Found BibTeX data source 'jabref.bib'
+[640] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[640] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[640] Biber.pm:4168> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'es-ES'
+[658] bbl.pm:654> INFO - Writing 'bibfinal.bbl' with encoding 'UTF-8'
+[663] bbl.pm:757> INFO - Output to bibfinal.bbl
